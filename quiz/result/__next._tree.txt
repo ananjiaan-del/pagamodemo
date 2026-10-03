@@ -1,0 +1,3 @@
+:HL["/pagamodemo/_next/static/css/b86b764b626f0b8c.css","style"]
+:HL["/pagamodemo/_next/static/css/3ec38987a70d2240.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"quiz","param":null,"prefetchHints":0,"slots":{"children":{"name":"result","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"9Nc5HImkDWJNqdLZI-J4l"}

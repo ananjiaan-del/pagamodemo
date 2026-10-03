@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:"$Sreact.suspense"
+3:I[2281,[],""]
+4:I[7933,[],""]
+0:{"rsc":["$","$1","c",{"children":[null,["$","$2",null,{"fallback":["$","main",null,{"className":"quiz-page","children":["$","p",null,{"children":"結果整理中…"}]}],"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"9Nc5HImkDWJNqdLZI-J4l"}
