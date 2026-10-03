@@ -1,0 +1,21 @@
+import type { Metadata } from 'next';
+import './globals.css';
+
+export const metadata: Metadata = {
+  title: '地方作伙｜關西地方創生任務',
+  description: '走進關西，透過任務、故事與選擇，一起讓地方發芽。',
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="zh-Hant">
+      <body>
+        {children}
+      </body>
+    </html>
+  );
+}
