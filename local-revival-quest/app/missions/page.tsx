@@ -1,0 +1,2 @@
+import SiteHeader from '../_components/SiteHeader';import {stories} from '../data';
+export default function Missions(){return <><SiteHeader/><main className="atlas-page missions-index"><header className="atlas-head"><p className="eyebrow">MISSION LAB</p><h1>地方創生關卡</h1><p>每一關都會先帶你看懂案例，再進入成立流程、資源選擇與商業模式決策。</p></header><section className="mission-list">{stories.map((s,i)=><a href={`/missions/${s.slug}`} key={s.slug}><span>0{i+1}</span><i>{s.icon}</i><div><small>{s.tag}</small><h2>{s.title}</h2><p>{s.short}</p></div><b>開始關卡 →</b></a>)}</section></main></>}

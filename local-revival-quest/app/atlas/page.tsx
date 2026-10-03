@@ -1,0 +1,2 @@
+import SiteHeader from '../_components/SiteHeader';import {stories} from '../data';
+export default function Atlas(){return <><SiteHeader/><main className="atlas-page"><header className="atlas-head"><p className="eyebrow">GUANXI STORY ATLAS</p><h1>關西地方創生圖鑑</h1><p>這不是成功公式，而是四種把地方問題變成行動的真實路徑。</p></header><section className="atlas-grid">{stories.map((s,i)=><a href={`/atlas/${s.slug}`} className={`atlas-card ac${i+1}`} key={s.slug}><div className="atlas-icon">{s.icon}</div><small>{s.tag}</small><h2>{s.title}</h2><p>{s.short}</p><b>閱讀完整故事 →</b></a>)}</section></main></>}
